@@ -2,6 +2,9 @@
 
 Experimental native GTK4 renderer for $mol/MAM.
 
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/6fc6c8f2-ac7b-4150-911b-904c6c41841c" />
+
+
 The component model stays declarative and reactive, while the host is GTK4 rather than DOM/WebView.
 
 ## Architecture
