@@ -210,3 +210,26 @@ $bog_gtk_entry
 $bog_gtk_scroll
 $bog_gtk_image
 ```
+
+
+## macOS
+
+Install the native runtime with Homebrew:
+
+```bash
+brew install gjs gtk4 gobject-introspection
+```
+
+Build the demo:
+
+```bash
+npx mam bog/gtk/demo
+```
+
+Then launch it with the helper script:
+
+```bash
+bash bog/gtk/demo/run-macos.sh
+```
+
+The helper sets the Homebrew `DYLD_LIBRARY_PATH` and `GI_TYPELIB_PATH` needed by GJS/GObject Introspection on macOS before starting the native GTK4 application.
